@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modulardiv{
+    background-image: url('./assets/bgblue.jpg');
+    background-size: cover;
+}
+
+@media (max-width:1024px){
+    .navbar{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgdiv{
+        padding: 10px;
+    }
+    .img{
+        height: 40vh;
+        width: 45vw;
+    }
+    .imgtext{
+        top: 100%;
+        left: 30%;
+    }
+    .sidebar{
+        display: none;
+    }
+    .four-divs{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .home2{
+        flex-direction: column;
+        padding: 10px;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .home2div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border: none;
+        width: 100vw;
+    }
+    .textimgdiv{
+        margin-top: 40px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .home2img{
+        width: 90vw;
+        justify-self: center;
+    }
+    .approvaldiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .manageTxtImg{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+        margin-bottom: 10vh;
+    }
+}
